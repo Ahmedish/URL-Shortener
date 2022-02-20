@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ShortUrl = require('./models/shortUrl');
 const app = express();
 
-mongoose.connect('mongodb://localhost/urlShortener');
+mongoose.connect('mongodb+srv://Ahmedish:*Ish39379*@cluster0.lfxyl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
